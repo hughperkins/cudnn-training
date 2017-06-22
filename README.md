@@ -7,12 +7,9 @@ This fork enables the cmake option `USE_OPENCL`, to build on OpenCL 1.2
 ## To build
 
 - Install latest [coriander](https://github.com/hughperkins/coriander)
-- Install the [coriander-dnn](https://github.com/hughperkins/coriander-dnn) plugin:
-```
-cocl_plugins.py install --repo-url https://github.com/hughperkins/coriander-dnn
-```
 - Then do:
 ```
+source ~/coriander/activate
 git clone https://github.com/hughperkins/cudnn-training
 cd cudnn-training
 mkdir build
